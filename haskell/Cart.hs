@@ -1,7 +1,6 @@
 module Cart where
 
 import qualified Data.Map.Strict as M
-import Data.Map.Strict ((!))
 
 type Product = (String, Double)
 type Cart = M.Map Product Int
